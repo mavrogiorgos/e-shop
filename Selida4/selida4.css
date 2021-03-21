@@ -1,0 +1,401 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: white;
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+#container{
+	min-height:100%;
+	position:relative;
+	
+}
+
+
+
+#logo{
+	position:fixed;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-align:center;
+	border: 0;
+}
+
+#welcome{
+padding-top:5px;
+font-family: Verdana;
+font-size: 50px;
+text-align: center;
+background-color: Lavender;
+font-weight:bold;
+
+}
+
+#cart{
+	position:fixed;
+	right: 0;
+	text-align:center;
+	border: 0;
+	width: 20%;
+	height:auto;
+	margin-top:10%;
+	background-color: midnightblue;
+	border-radius: 15px;
+	font-family: Verdana;
+	font-size:14px;
+	color:white;
+
+}
+
+#discount{
+	font-family: Verdana;
+	font-size:14px;
+	color:lime;
+}
+
+
+
+#product1{
+	
+	padding-top:5%;
+	
+}
+
+#total{
+	
+	font-weight:bold;
+	padding-top:5%;
+	padding-bottom:5%;
+}
+#randomButton{
+background-color: white; 
+ border: 1px solid Lavender; 
+font-family: Verdana;
+ color: Black; 
+ padding:1%;
+ font-weight:bold;
+border-radius: 25px;
+cursor:pointer;
+}
+
+#goToStepTwoButton{
+background-color: white; 
+border: 1px solid Lavender; 
+font-family: Verdana;
+color: Black; 
+padding:1%;
+border-radius: 25px;
+}
+
+#randomButton:hover {
+  background-color: dodgerblue;
+  color:white;
+  
+}
+
+#goToStepTwoButton:hover {
+  background-color: dodgerblue;
+  color:white;
+}
+
+
+
+
+
+#back1{
+background-color: white; 
+border: 1px solid Lavender; 
+font-family: Verdana;
+color: Black; 
+padding:1%;
+border-radius: 25px;
+font-weight:bold;
+}
+
+#back1:hover {
+  background-color: dodgerblue;
+  color:white;
+}
+
+
+
+
+
+#next1{
+background-color: white; 
+border: 1px solid Lavender; 
+font-family: Verdana;
+color: Black; 
+padding:1%;
+border-radius: 25px;
+font-weight:bold;
+}
+
+#next1:hover {
+  background-color: dodgerblue;
+  color:white;
+}
+
+#verify{
+background-color: white; 
+border: 1px solid Lavender; 
+font-family: Verdana;
+color: Black; 
+border-radius: 25px;
+font-weight:bold;
+padding: 10px 24px;
+visibility:hidden;
+}
+
+#verify:hover {
+  background-color: dodgerblue;
+  color:white;
+}
+
+#verify2{
+background-color: white; 
+border: 1px solid Lavender; 
+font-family: Verdana;
+color: Black; 
+border-radius: 25px;
+font-weight:bold;
+padding: 10px 24px;
+visibility:hidden;
+}
+
+#verify2:hover {
+  background-color: dodgerblue;
+  color:white;
+}
+
+#goback3{
+background-color: white; 
+border: 1px solid Lavender; 
+font-family: Verdana;
+color: Black; 
+border-radius: 25px;
+font-weight:bold;
+padding: 10px 24px;
+visibility:hidden;
+}
+
+#goback3:hover {
+  background-color: dodgerblue;
+  color:white;
+}
+
+
+#shoes{
+
+font-family: Verdana;
+font-size:30px;
+font-weight:normal;
+color: white;
+background-color:dodgerblue;
+text-align:center;
+padding-top: 2%;
+padding-bottom: 2%;
+
+
+}
+
+
+#figure1{
+text-align:center;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+color:midnightblue;
+}
+
+#figure2{
+	text-align:center;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	color:midnightblue;
+
+}
+
+#figure3{
+	text-align:center;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	color:midnightblue;
+
+}
+
+#figure4{
+	text-align:center;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	color:midnightblue;
+
+}
+
+#figure5{
+	text-align:center;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	color:midnightblue;
+
+}
+
+#figure6{
+	text-align:center;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	color:midnightblue;
+
+}
+
+@media only screen and (min-width: 601px) {
+	.column {
+	  float: left;
+	  width: 50%;
+	  padding: 5px;
+	}
+
+	.row::after {
+	  content: "";
+	  clear: both;
+	  display: table;
+	}
+}
+.bold{
+	font-weight:bold
+}
+
+
+#size{
+font-family: Verdana;
+font-weight:normal;
+font-size:14px;
+}
+
+.caption{
+font-family: Verdana;
+font-weight:bold;
+font-size:16px;
+
+}
+
+.info{
+font-family: Verdana;
+font-weight:normal;
+font-size:14px;
+background-color:Lavender;
+padding:10px;
+text-align:justify;
+border-radius: 15px 50px;
+color:midnightblue;
+
+}
+
+#products{
+	width: 80%;
+}
+
+#form1{
+
+color:midnightblue;
+font-family: Verdana;
+font-weight:bold;
+font-size:16px;
+text-align:center;
+
+}
+
+
+a { text-decoration: none; }
+
+#wayOfPayment{
+	visibility: hidden;
+}
+
+#meKarta
+{
+	visibility: hidden;
+
+}
+
+
+#payment{
+font-family: Verdana;
+font-size:14px;
+font-weight:bold;
+background-color: Lavender;
+border: none;
+color: black;
+padding-top: 2%;
+text-align:center;
+width: 80%;
+color:midnightblue;
+border-radius: 15px;
+}
+
+
+#instructions{
+font-family: Verdana;
+font-size:9px;
+font-weight:lighter;
+color: black;
+visibility:hidden;
+color:midnightblue;
+}
+
+#partners{
+font-family: Verdana;
+text-align: center;
+font-weight:bold;
+padding-bottom:0px;
+color:midnightblue;
+}
+
+#partner1{
+padding-right:5%;
+}
+
+#partner2{
+padding-right:5%;
+}
+#partner3{
+padding-right:5%;
+}
+#partner4{
+padding-right:5%;
+}
+
+#partext{
+font-family: Verdana;
+font-size:14px;
+font-weight:bold;
+color:midnightblue;
+
+}
+
+#footer{
+	font-weight:bold;
+	font-size: 14px;
+	text-align: center;
+	bottom:0;
+	font-family: Verdana;
+	width:100%;
+	background-color:dodgerblue;
+	
+	
+}

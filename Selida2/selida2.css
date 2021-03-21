@@ -1,0 +1,110 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: white;
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+#container{
+	min-height:100%;
+	position:relative;
+	
+}
+
+#logo{
+	position:fixed;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-align:center;
+	border: 0;
+}
+#welcome{
+padding-top:5px;
+font-family: Verdana;
+font-size: 50px;
+text-align: center;
+background-color: Lavender;
+font-weight:bold;
+
+}
+
+#keno{
+background-color:white;
+height:50px;	
+	
+}
+
+
+
+#signup{
+font-family: Verdana;
+font-size:14px;
+font-weight:bold;
+background-color: Lavender;
+border: none;
+color: black;
+padding-top: 5%;
+text-align:center;
+padding-left:1%;
+}
+
+#signupbutton{
+background-color: white; 
+ border: 1px solid Lavender; 
+font-family: Verdana;
+ color: Black; 
+ padding:1%;
+ font-weight:bold;
+border-radius: 25px;
+cursor:pointer;
+}
+
+#signupbutton:hover {
+  background-color: dodgerblue;
+  color:white;
+  
+}
+
+
+
+
+
+#partner1{
+padding-right:5%;
+}
+
+#partner2{
+padding-right:5%;
+}
+#partner3{
+padding-right:5%;
+}
+#partner4{
+padding-right:5%;
+}
+
+#partext{
+
+padding-bottom:10px;
+font-family: Verdana;
+font-size:14px;
+font-weight:bold;
+
+}
+
+
+#footer{
+	font-weight:bold;
+	font-size: 14px;
+	text-align: center;
+	bottom:0;
+	font-family: Verdana;
+	width:100%;
+	background-color:dodgerblue;
+	position:absolute;
+	
+}
