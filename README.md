@@ -1,5 +1,5 @@
 # E-shop 'The Doc.'
-Within the course ‘Internet and Portable Information Systems’ of the Department of Digital Systems of the University of Piraeus, the specific exemption work was assigned. The goal is to develop an online store called ‘The Doc.’, which is used to sell sport-related products.
+Within the course ‘Internet and Portable Information Systems’ of the Department of Digital Systems of the University of Piraeus, the specific project was assigned. The goal is to develop an online store called ‘The Doc.’, which is used to sell sport-related products.
 
 ## Offerings
 * Registration in the system.
